@@ -460,22 +460,27 @@ funcional para a interpretação de dados provenientes de um teclado analógico 
                                         <div class="divider-custom-line"></div>
                                     </div>
                                                                                 
-                                        <p class="mb-4">Para el modelado del avion se utiliza el software AVL disponible en la web de manera gratuita, este software nos sirve para obtener los coeficientes basicos que modelan el comportamiento del avion. Para poder obtener los coeficientes el software nos pide un archivo de entrada que contemple las dimensiones del avion, peso y configuracion del sistema de propulsion. Este nos da como salida una cantidad de informacion que debemos discernir para obtener la informacion necesaria.  Adicional a esta informacion el software nos provee un represantion en 3D del aeromodelo que estamos modelando.</p>
-                                                                             <div class="justify-content-center  mb-5" >
-                                      <embed type="text/plain" src="assets/img/portfolio/UAV.avl" width="700" height="200"/>                        </div>
-                                                                           <div class="justify-content-center  mb-5" >
-                                      <embed type="text/plain" src="assets/img/portfolio/UAV.mass" width="700" height="200"/>                        </div>
-                                     <div class="justify-content-center  mb-5" >
-                                      <embed type="text/plain" src="assets/img/portfolio/UAV" width="700" height="200"/>                        </div>
-                                     <p class="mb-4">con el software gratuito XFLR5, tambien sirve para modelar el comportamiento de toso el aermodmoleo inlcuyendo el fuselaje, en el podmos ver las fuerzas de arrastre, los puntos de presion que se generan en el cuerpo del avion.</p>
+                                        <p class="mb-4">
+Para obter o modelo matemático do aeromodelo se usa o software libre AVL disponível na web de maneira gratuita, com este software podemos obter os coeficientes aerodinâmicos básicos que modelam o comportamento do aeromodelo, antes de obter os coeficientes é preciso entrar um arquivo onde estejam contemplados as dimensões e os perfis alares da aeronave, este arquivo deve ter uma extensão XXX.avl como o arquivo que se encontra em baixo.</p>           
+                                   <div class="justify-content-center text-center mb-5" >UAV.avl
+                                     <embed type="text/plain" src="assets/img/portfolio/UAV.avl" width="700" height="200"/>                                  </div>
+                                        <p class="mb-4">Também é preciso informar ao software o peso e as massas inerciais em distintos pontos do aeromodelo em um arquivo com extensão XXX.mass.</p>
+
+                                  <div class="justify-content-center  text-center mb-5">UAV.mass
+                                    <embed type="text/plain" src="assets/img/portfolio/UAV.mass" width="700" height="200"/>                                </div>
+                                  <p class="mb-4">Depois de ingressar esta informação o software nos retorna um arquivo com os coeficientes esperados para usa-los no modelo matemático.</p>
+                                 <div class="justify-content-center  text-center mb-5"> Coeficientes aerodinamicos
+                                   <embed type="text/plain" src="assets/img/portfolio/UAV" width="700" height="200"/>                                  </div>
+                                     <p class="mb-4">Com o software XFLR5, podemos modelar o comportamento de tudo o aeromodelo incluindo a fuselagem, no software podemos estabelecer as forcas de arrastre, os pontos de pressão que se geram no corpo do avião entre outros fatores que afetam o comportamento.</p>
                                      <img class="img-fluid rounded mb-5" src="assets/img/portfolio/xflr5-1.png" alt="..." />
 
-                                    <h4 class="text-secondary text-center mb-0">Simulacion</h4>
+                                    <h4 class="text-secondary text-center mb-0">Simulação</h4>
                                         <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <p class="text-justify mb-4">Flightgear es un software de silulacion de software libre que se usa blender para la creacion de la aeronave existen varios softwares para simulacion como flightsimluator de microsoft, ---- sin embatgo estos softeare de simulacion son bastante caros y no es posible realizar analisis de disenho, por tal motivo es usado flightegar ya que al ser un software libre se puede realizar analisis</p>  
-                                    <p class="text-justify mb-4">Antes de desarrollar el aeromodelo es necesario simular el diseno con el objetivo de hacer mejoras antes de desarrollarlo fisicamente</p>                                    
+                                   <p class="text-justify mb-4">Antes de desenvolver fisicamente o aeromodelo é preciso simular os parâmetros de desenho estabelecidos nas etapas anteriores como o objetivo de fazer mudanças antes de desenvolve-lo fisicamente.</p> 
+                                   
+                                    <p class="text-justify mb-4">Existem vários software de simulação de vôos como Microsoft flight simulator, x-plane, emtre outros, esses softwares são licenciados e possuem excelente qualidade de realismo, porem ao ser software de caráter propriativo não é possível fazer alterações acorde com as nossas necessidades, alem de ser muito custoso. Por tal motivo é usado flightegar já que ao ser um software libre pode-se realizar análises acorde a nossas necessidades; para a construção do aeromodelo virtual, é preciso usar o sfotware blender para pode-lo usar no simulador.</p>                                     
                                     <div class="container">
                                       <div class="row justify-content-center">
                                     	  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/fgfs-1.png" alt="..." />
@@ -489,11 +494,11 @@ funcional para a interpretação de dados provenientes de um teclado analógico 
                                       </div>
                                     </div>
 
-                                    <h4 class="text-secondary text-center mb-0">Construcion</h4>
+                                    <h4 class="text-secondary text-center mb-0">Construção</h4>
                                         <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <p class="text-justify mb-4">Ahora teniendo en cuenta las especificaciones; el maeterial con el que esta disenado el avion es icopor de densidad 25, este material es resistente, liviano y economico, en la actualidad la tendencia es fabricar aeromodelos con este material dada su facilidad para realizar perfiles curvos a diferencia de los aeromodelos hechos con madera. en el momento se esta trabajando con una densidad de 15 dada la imposibiliad de hallar dicha densidad. </p>
+                                    <p class="text-justify mb-4">Agora tendo em conta as especificações desenvolvias nas etapas anteriores, se construí o aeromodelo com isopor de densidade 15.</p>
                                     <div class="container">
                                       <div class="row justify-content-center">
                                     	  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cons-1.jpg" alt="..." />
@@ -504,11 +509,11 @@ funcional para a interpretação de dados provenientes de um teclado analógico 
                                       </div>
                                     </div>
 
-                                    <h4 class="text-secondary text-center mb-0">Conclución</h4>
+                                    <h4 class="text-secondary text-center mb-0">conclusão</h4>
                                         <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                     </div>  
-                                    <p class="text-justify mb-4">Se apropio de los conociemientos para el desarrollo de el veiculo aereo no tripulado, sin embargo es necesario poner en marcha el aeromodelo para detallar el comportamiento y comprarlo con el modelo matematico desarrollado en la etapa de disenho. pata esto es necesario comprar el motor y todo el sistema electornico que acarrea poner en marcha el aeromodleo. el proximo objetivo es el desarrollo del sistema de control</p>                                  
+                                    <p class="text-justify mb-4">Se apropriaram dos conhecimentos para o análises, desencho simulação de veículos aéreos não tripulados, porém é preciso por em execução o aeromodelo para detalhar o comportamento e compara-lo com o modelo matemático desenvolvido na etapa de desenho. Na próxima etapa é o desenvolvimento do sistema de controle.</p>                                  
                                 </div>
                             </div>
                         </div>
@@ -544,35 +549,41 @@ funcional para a interpretação de dados provenientes de um teclado analógico 
                                         <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                      </div>
-                                     <p class="mb-4">Desarrollo de un software de escritorio y prototipo funcional hardware/software para el registro de tiempos de procesos laborales, voltado a la industria textil</p>
+                                     <p class="mb-4">Desenvolvimento de um protótipo funcional hardware/software e um programa de escritório para o registro de tempos nos processos laborais voltados para a indústria têxtil</p>
                                     
-                                    <ol>
-                                        <li>Hardware/software
-                                          <p class="mb-4">El hardwrae que se debe desarollar debe contener un lector rfid donde esta almacenados los datos del trabajador, de tal modo que este al pasar la tarjeta envie una senal al software de escritorio en el que indique el inicio del processo y su posterior parada del processo, tambien debe contar con un boton el cual registre cualquier anomalia p interrupcion en el proceso de tal manera que el softeare de escritorio detecte la interrupcion y automaticamente para el reloj, de igual amnera sucede cuando es accionado de neuvo el boton, este retorna en el contaje del tiempo.</p>
-                                        <p class="mb-4">Dada la simplicidad de arduino, para el diseno del prototipo, se tuvo en cuenta el diseno placa de evaluacon de arduino uno para la creacion del software y luego ser embarcado en el chip de arduino atm328, se tuvo envuenta varias solcuiones para la transmision de los datos entre ellas bluetooth, lora y xbee, sin embago seobt por usar xbee dado su alance y su ancho de banda. el tarjeta que recive los datos es rfid ntc545</p>
-                                       <p class="mb-4">El hardwrae consta de dos modulos, un que recibe la nformacion del emplado y otro es un modulo receptor que recib e los datos de los modulos esclavos y envia esta infromacion por comunicacion serial al software de escritorio.</p>
+                                     <h4 class="text-secondary text-center mb-0">Hardware/Firmware</h4>
+                                        <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                     </div>
+                                          <p class="mb-4">O hardware há desenvolver contem leitor RFID onde envie informações ao microcontrolador quando al passar a tarjeta envie uma sinal ao software de escritório em que indique o inicio do processo e a sua posterior finalização, também deve conter um bottom no qual registre qualquer anomalia ou interrupção no processo de modo que o software de escritório detecte a interrupção automaticamente e pare o relógio, também é preciso que quando se acione de novo o buttom esta sinal é enviada ao software de escritório para retornar a contagem do relógio. O software de escritório deve armazenar os dados obtidos com o envio dos sinais.</p>
+                                        <p class="mb-4">Para o desenvolvimento do hardware do protótipo se teve em conta o desenho da placa rfid pn532 e para o desenvolvimento do firmware se usou a linguajem c++ para logo ser embarcado em um chip atmega328, se teve em conta varias soluções para a transmissão dos dados entre o modulo escravo e o modulo receptor conectado al software de escritório, estas tecnologias forma bluetooth, LoRa e XBEE, porem se decidiu usar cbee já que a sua acnace e ancho de banda cumprem as condições estabelecidas.</p>
+                                         <img class="img-fluid rounded mb-5" src="assets/img/portfolio/RFID.jpg" alt="..." />
+                                       <p class="mb-4">O software consta de dois módulos, um modulo que recebe a informação do empregado e o outro modulo receptor que recebe os dados dos módulos escravos e envia esta informação por comunicação serial ao software de escritório.</p>
                                             <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cetco-3D.png" alt="..." />
                                             <img class="img-fluid rounded mb-5" src="assets/img/portfolio/PCB_Cetcov1.png" alt="..." />
                                             <img class="img-fluid rounded mb-5" src="assets/img/portfolio/PCB_Cetcov2.png" alt="..." />
-                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/RFID.jpg" alt="..." />
-                                        </li>
-                                        <li>Software de escritorio
-                                           <p class="mb-4">El software de escritoiro se desarrollo vbajoe el IDE de netbeans con una base de datos posedgre, el objetivo del software de escritorio es presentar la nformacion de los tiempos del operario y ser almacenado en la base de datos, el software automaticamente detecta la interrupcion </p>
+                                        
+                                    <h4 class="text-secondary text-center mb-0">Software de Escritorio</h4>
+                                        <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                     </div>
+                                           <p class="mb-4">O software de escritório é desenvolvido usando o IDE de Netbeans, este software de escritório consta de uma base de dados MySQL, a função de este software é a apresentar a informação dos tempos do operário e são armazenados na base de dados também detecta automaticamente as interrupções.</p>
                                             <img class="img-fluid rounded mb-5" src="assets/img/portfolio/CETCO.png" alt="..." />
                                         </li>
                                     </ol>
-                                     <p class="mb-4">El software de escritorio recibe las senales enviadas por el modulo esclavo siendo estas inicio, parada e interrupcion.</p>                              
+                                     <p class="mb-4">O software de escritório recebe os sinais enviadas pelo módulo escravo sendo estas o início, parada e interrupção.</p>                              
                                      <video width="640" height="480" controls>
   					<source src="assets/img/portfolio/cetco.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				     </video>  
 				     
 				     <!-- Portfolio Modal - Text-->
-                                     <h4 class="text-secondary text-center mb-0">Conclucion</h4>
+                                     <h4 class="text-secondary text-center mb-0">Conclusão</h4>
                                         <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                      </div>
-                                     <p class="mb-4">mejorar el software de escritorio, es necesario cambiar el chio atnega328 por uno de stm32 de baja potencia, realizar un proceso de baja potencia hardware, aumetar las fucnionalidades del sofetare Adicionalmente de almacenar los datos provenientes de lso empleados es necesesario que el software de escritorio calcule el promedio de cada processo, adiciionalmente de otras funciones como calculo el tiempo de realizacion de la pieza ente otros.</p>
+                                     <p class="mb-4">Melhorar o software de escritório, é preciso trocar o chip atmega328 por uma da família stm,32 de baixa potencia, </p>
+                                     <p class="mb-4">também aumentar a funcionalidade do software de escritório além de armazenar os dados provenientes dos funcionários, também é preciso que o software de escritório calcule o promedio de cada um dos processos, como outras funções como cálculo de tempo total do tempo de realização da pieza em estudo.</p>
                                                                           
                                 </div>
                             </div>
@@ -607,9 +618,10 @@ funcional para a interpretação de dados provenientes de um teclado analógico 
                                         <div class="divider-custom-line"></div>
                                         </div>
                                     
-                                    <p class="mb-4">El objetivo de este proyecto es disenar y crear un kit de evaluacion basado en tres modulos</p>			     <ol>
+                                    <p class="mb-4">O objetivo de este projeto é desenhar e criar um kit de avaliação baseado em três módulo, um módulo principal, um carrier board e um módulo DSP</p>
+                                    <ol>
                                        <li>Modulo principal
-                                           <p class = "mb-4">El mudulo proncipal continene el prceosador IMX6QP qaud core que tiene una memoria eMMC donde almacena el sistema operativo y cuatro memorias DDR3, este modulo consiste de 160 pines de entrada salida que se comunica con los perfericos asociados al carrier board.</p>
+                                           <p class = "mb-4">O modulo principal contem o processador IMX6QP quad core que tem uma memória eMMC onde armazena o sistema operativo e quatro memorias DDR3, este modulo consiste de 160 pines de entrada e saída que comunica-se com os periféricos associados ao Carrier board.</p>
                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/IMX6QP-Page-1.png" alt="..." />
                                            <div class="row">
                                               <div class="column">
@@ -623,7 +635,7 @@ funcional para a interpretação de dados provenientes de um teclado analógico 
                                            </div>
                                        </li>
                                        <li>Carrier Board
-                                          <p class = "mb-4">El Carrier board es el modulo que contiene todos los perifericos asociados al modulo principal, estos perifericos son: </p>
+                                          <p class = "mb-4">EO carrier board é o modulo que contem todos os periféricos associados ao modulo principal, estos periféricos são:</p>
                                           <ol>
                                              <li>USB</li>
                                              <li>I2C</li>
@@ -631,11 +643,11 @@ funcional para a interpretação de dados provenientes de um teclado analógico 
                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/IMX6QP-Page-2.png" alt="..." />
                                        </li>
                                        <li>Modulo DSP
-                                           <p class = "mb-4">POr ultimo esta el modulo DSP que contiene una FPGA y modilos adicionales para alamcenar el sistema operativo, se comunica con el carrier board mediante el protocolo PCIe, este modulo puede ser usado para el procesamiento de imagenes dada su alta velocidad de computo</p>
+                                           <p class = "mb-4">O terceiro osulo contem um chipDSP e uma PGA e módulos adicionais para armazenar o sistema operativo, se comunica com o carrier boaras mediante o protocolo mPCIe. Este módulo pode ser usado para o processamento de imagens por conta de alta velocidade de cômputo.</p>
                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/IMX6QP-Page-3.png" alt="..." />
                                        </li>
                                     </ol>
-                                        <h4 class="text-secondary text-center mb-0">Kit de desenvolvimento</h4>
+                                        <h4 class="text-secondary text-center mb-0">Kit de avaliação</h4>
                                         <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         </div>   
